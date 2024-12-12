@@ -1,0 +1,410 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f8fc;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+    gap: 15vh;
+  }
+  
+  .login-illustration img {
+    width: 60vh;
+   
+   height:60vh ;
+  }
+  
+  .login-form {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 3vh;
+    width: 60vh;
+    height: 83vh;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .brand-name {
+    font-size: 4.5vh;
+    color: #6358DC;
+    font-weight: bolder;
+  
+  }
+  
+  h1 {
+    text-align: left;
+    text-align-last: left;
+    
+    width: 25vh;
+    margin: 0;
+    margin-top: 1vh;
+    font-size: 4vh;
+    margin-bottom: 4vh;
+  }
+  
+  .social-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #E2E2E2;
+    border-radius: 2vh;
+    margin-bottom: 1vh;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.1);
+    font-size: 2vh;
+    font-weight: 500;
+    width: 60vh;
+    height: 7vh;
+    cursor: pointer;
+  }
+  
+  .social-login.google {
+   
+    background-color: #ffffff;
+    color: #1C1B1F;
+  }
+  
+  .social-login.facebook {
+    background-color: #ffffff;
+    color:#1C1B1F;
+  }
+  
+  .social-login img {
+    width: 4vh;
+    height: 4vh;
+    margin-right: 1vh;
+  }
+  .social-login.facebook img {
+    width: 1.8vh;
+    height: 3.5vh;
+    margin-right: 1vh;
+  }
+  
+  .separator {
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+    font-weight: bold;
+    color: #999;
+font-size: 2vh;
+    width: 60vh;
+    height: 7vh;
+  }
+  .separator hr {
+    
+width: 25vh;
+  }
+  
+
+
+  form{
+    display: block;
+    justify-items: center;
+  }
+
+
+  .input-field {
+    display: flex;
+    align-items: center;
+   
+    border-radius: 1vh;
+    margin-bottom: 1vh;
+    border: none;
+    padding: 2vh;
+    width: 55vh;
+    height: 3vh;
+    background: #f7f8fc;
+  }
+
+  .place_input{
+
+height: 5vh;
+width: 48vh;
+text-align: left;
+display: flex;
+flex-direction: column;
+gap: 0.5vh;
+  }
+
+  .place_span {
+    color: #1C1B1F;
+    font-size: 1.7vh;
+    margin-left: 0.4vh;
+    
+  }
+
+  .input-field img {
+    margin-right: 2vh;
+   
+    width: 2.5vh;
+    height: 2.5vh;
+  }
+  
+  .input-field input {
+    border: none;
+    outline: none;
+    width: 50vh;
+  
+    font-size: 2vh;
+    font-weight: 700 ;
+    background: none;
+  
+    color: #1C1B1F;
+  }
+  
+
+
+  .extras {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 1vh; */
+    font-size: 2vh;
+    width: 58vh;
+    height: 8vh;
+  }
+  .check_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .check_inputs {
+    
+  width: 2.5vh;
+  height: 2.5vh;
+   margin-right: 2vh;
+ 
+   cursor: pointer;
+   
+  }
+  
+
+  
+
+
+  
+  .forgot-password {
+    color: #6358DC;
+    text-decoration: none;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  .login-button {
+    width: 58vh;
+    height: 7vh;
+    font-size: 2.5vh;
+    background-color: #6358DC;
+    color: white;
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #574bcc;
+  }
+  
+  .register-link {
+    margin-top: 3vh;
+    font-size: 2vh;
+  }
+  
+  .register-link span {
+    color: #6358DC;
+    text-decoration: none;
+  }
+  
+  .register-link span:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-height: 80vh) and (max-width: 50vw) {
+    .login-illustration {
+      display: none;
+    }
+  }
+
+  @media (max-width:876px) {
+
+    .login-illustration  {
+     display: none;
+    }
+
+
+  }
+  @media (min-height: 1189px) and (max-width:1700px ) {
+    .login-illustration {
+      display: none;
+    }
+  }
+  @media (min-height: 1350px) and (max-width:2000px ) {
+    .login-illustration {
+      display: none;
+    }
+  }
+  
+ 
+@media (max-width:461px) {
+  .login-illustration  {
+    display: none;
+   }
+
+
+  .login-form {
+   
+    width: 80vw;
+  
+    
+  }
+  .social-login {
+    
+    width: 80vw;
+    
+    
+  }
+
+
+  .separator {
+   
+     width: 80vw;
+     
+   }
+   .separator hr {
+     
+ width: 30vw;
+   }
+   
+   .input-field {
+   
+     width: 70vw;
+    
+   }
+ 
+   
+ 
+   
+   .input-field input {
+     
+     width: 55vw;
+     
+     
+   }
+   
+   .extras {
+     
+     width: 80vw;
+     
+   }
+   
+   
+   .login-button {
+     width: 80vw;
+     
+
+
+}
+
+}
+  
+
+
+
+
+
+
+  
+  /* Container */
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   
+    text-align: center;
+    background-color: #fff;
+  }
+
+  .card{
+
+    display: block;
+    width: 330px;
+    justify-items: center;
+  }
+  
+  /* Welcome Text */
+  .welcome-text {
+    text-align-last:center ;
+    margin: 0;
+    width: 24vh;
+    font-size: 4.2vh;
+    font-weight: 500;
+    margin-bottom: 12vh;
+  }
+  
+ 
+  
+  /* User Card */
+  .user-card {
+    background-color: #fff;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    border: 1px solid #E2E2E2;
+    padding: 2rem;
+    width: 250px;
+    display: block;
+    justify-items: center;
+    
+    
+  }
+  
+  /* User Avatar */
+  .user-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  /* User Details */
+  .user-name {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .user-email,
+  .user-designation {
+    font-size: 1rem;
+    color: #666;
+    margin: 0.2rem 0;
+  }
+  
+  /* Logout Button */
+  .logout-button {
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #6c63ff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #574bff;
+  }
+
+  
